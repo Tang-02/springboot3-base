@@ -1,0 +1,30 @@
+server:
+  port: 7810
+  address: 0.0.0.0
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: openapi-backend
+  profiles:
+    default: dev
+    # 支持 swagger3
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+  servlet:
+    multipart:
+      max-file-size: 10MB #上传文件大小
+  session:
+    # todo 取消注释开启分布式 session（须先配置 Redis）
+    store-type: redis
+    timeout: 86400
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
