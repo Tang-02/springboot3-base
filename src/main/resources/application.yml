@@ -6,7 +6,7 @@ server:
 
 spring:
   application:
-    name: openapi-backend
+    name: example-backend
   profiles:
     default: dev
     # 支持 swagger3

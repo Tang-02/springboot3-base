@@ -1,8 +1,8 @@
-package com.tjl.openapi.service;
+package com.tjl.example.service;
 
-import com.tjl.openapi.model.User;
+import com.tjl.example.model.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tjl.openapi.model.vo.UserReg;
+import com.tjl.example.model.vo.UserReg;
 
 /**
 * @author 27701

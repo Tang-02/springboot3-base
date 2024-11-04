@@ -1,8 +1,8 @@
-package com.tjl.openapi.exception;
+package com.tjl.example.exception;
 
-import com.tjl.openapi.common.R;
-import com.tjl.openapi.common.ErrorCode;
-import com.tjl.openapi.common.ResultUtils;
+import com.tjl.example.common.R;
+import com.tjl.example.common.ErrorCode;
+import com.tjl.example.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

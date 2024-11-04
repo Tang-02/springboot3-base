@@ -1,15 +1,15 @@
-package com.tjl.openapi.service.impl;
+package com.tjl.example.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.tjl.openapi.common.ErrorCode;
-import com.tjl.openapi.exception.BusinessException;
-import com.tjl.openapi.model.User;
-import com.tjl.openapi.model.vo.UserReg;
-import com.tjl.openapi.service.UserService;
-import com.tjl.openapi.mapper.UserMapper;
-import com.tjl.openapi.utils.PwdUtil;
+import com.tjl.example.common.ErrorCode;
+import com.tjl.example.exception.BusinessException;
+import com.tjl.example.model.User;
+import com.tjl.example.model.vo.UserReg;
+import com.tjl.example.service.UserService;
+import com.tjl.example.mapper.UserMapper;
+import com.tjl.example.utils.PwdUtil;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;

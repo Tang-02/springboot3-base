@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/openapi?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/example?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: root
   elasticsearch:
@@ -24,4 +24,4 @@ springdoc:
   group-configs:
     - group: 'default'
       paths-to-match: '/**'
-      packages-to-scan: com.tjl.openapi
+      packages-to-scan: com.tjl.example

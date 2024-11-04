@@ -1,4 +1,4 @@
-package com.tjl.openapi.common;
+package com.tjl.example.common;
 
 /**
  * 返回工具类

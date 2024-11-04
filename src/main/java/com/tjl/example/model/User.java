@@ -1,4 +1,4 @@
-package com.tjl.openapi.model;
+package com.tjl.example.model;
 
 import com.baomidou.mybatisplus.annotation.*;
 

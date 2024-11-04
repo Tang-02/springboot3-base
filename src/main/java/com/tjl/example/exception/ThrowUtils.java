@@ -1,6 +1,6 @@
-package com.tjl.openapi.exception;
+package com.tjl.example.exception;
 
-import com.tjl.openapi.common.ErrorCode;
+import com.tjl.example.common.ErrorCode;
 
 /**
  * 抛异常工具类

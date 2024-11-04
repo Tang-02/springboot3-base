@@ -1,4 +1,4 @@
-package com.tjl.openapi.common;
+package com.tjl.example.common;
 
 /**
  * 自定义错误码

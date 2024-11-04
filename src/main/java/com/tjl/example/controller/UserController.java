@@ -1,16 +1,16 @@
-package com.tjl.openapi.controller;
+package com.tjl.example.controller;
 
 import co.elastic.clients.elasticsearch.core.DeleteRequest;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 
-import com.tjl.openapi.common.ErrorCode;
-import com.tjl.openapi.common.R;
-import com.tjl.openapi.common.ResultUtils;
-import com.tjl.openapi.exception.BusinessException;
-import com.tjl.openapi.exception.ThrowUtils;
-import com.tjl.openapi.model.User;
-import com.tjl.openapi.model.vo.UserReg;
-import com.tjl.openapi.service.UserService;
+import com.tjl.example.common.ErrorCode;
+import com.tjl.example.common.R;
+import com.tjl.example.common.ResultUtils;
+import com.tjl.example.exception.BusinessException;
+import com.tjl.example.exception.ThrowUtils;
+import com.tjl.example.model.User;
+import com.tjl.example.model.vo.UserReg;
+import com.tjl.example.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;

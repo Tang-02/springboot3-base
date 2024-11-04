@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tjl</groupId>
-    <artifactId>openapi-backend</artifactId>
+    <artifactId>example-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>openapi-backend</name>
-    <description>openapi-backend</description>
+    <name>example-backend</name>
+    <description>example-backend</description>
     <properties>
         <java.version>17</java.version>
     </properties>

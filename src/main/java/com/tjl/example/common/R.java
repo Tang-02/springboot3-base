@@ -1,4 +1,4 @@
-package com.tjl.openapi.common;
+package com.tjl.example.common;
 
 import java.io.Serializable;
 import lombok.Data;

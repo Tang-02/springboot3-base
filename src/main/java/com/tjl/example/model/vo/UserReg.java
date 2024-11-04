@@ -1,4 +1,4 @@
-package com.tjl.openapi.model.vo;
+package com.tjl.example.model.vo;
 
 import lombok.Data;
 

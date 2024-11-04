@@ -1,4 +1,4 @@
-package com.tjl.openapi.constant;
+package com.tjl.example.constant;
 
 /**
  * 用户常量

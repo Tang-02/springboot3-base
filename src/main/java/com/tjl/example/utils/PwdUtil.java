@@ -1,8 +1,8 @@
-package com.tjl.openapi.utils;
+package com.tjl.example.utils;
 
 import cn.hutool.crypto.digest.DigestUtil;
 import cn.hutool.crypto.digest.MD5;
-import com.tjl.openapi.constant.UserConstant;
+import com.tjl.example.constant.UserConstant;
 import org.springframework.stereotype.Component;
 
 /**
